@@ -13,8 +13,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin: 0px;
 
 }
 
@@ -27,4 +26,8 @@
   color:white;
   font-size: 100px;
   
+}
+
+body {
+    margin: 0px;
 }

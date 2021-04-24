@@ -5,7 +5,7 @@
         <meta charset="utf-8" />
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Restaurants vs. COVID</title>
+        <title>Togetherness: A Digital Photo Story</title>
 
         <!-- Load CSS files -->
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic" />
@@ -16,6 +16,8 @@
         
         <link rel="stylesheet" href="style.css" />
 
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         <script src="main.js" defer type="module"></script>
 
     </head>
@@ -24,10 +26,98 @@
         <div class="hero-text">
             <header>Essay 3: A Digital Photo Story</header>
         </div>
+
+        
     </div>
 
     <body>
+
+        <div class='intro'>
+            <h3>Hey! This is a digital photo story of my trip to Barcelona last spring break! I've mixed photos of the trip with
+                pieces from my essay. I'm also thinking of epanding this and including as similar project related to my essay 2.
+                Thanks for checking it out!</h3>
+        </div>
+
+        <hr width="800px">
+
+        <div data-aos="fade-up-right" class="left-photo">
+            <img src="assets/missing-mariana.JPG">
+            <p>Ted was easy enough to talk to, but we could feel the empty space that Mariana was supposed to have filled with
+                her high
+                energy and nearly non-stop chattering.</p>
+        </div>
         
+        <div data-aos="fade-up-left" class="right-photo">
+            <img src="assets/flag.jpeg"> 
+            <p>“Is this it?” I said as Ted and I exchanged looks. The site, number one recommended by our Airbnb host appeared to just
+            be a really tall flag in the middle of a traffic circle. We couldn’t help but laugh, and once we started we couldn’t
+            stop. The ridiculousness of the situation was too much.</p>
+        </div>
+
+        
+
+        <div data-aos="fade-up-right" class="left-photo">
+            <img src="assets/day1.jpeg">
+            <p>With a few destinations in our back pocket, we set out wandering the streets and wondering what it would be like to be a
+            local.</p>
+        </div>
+
+        <div data-aos="fade-up-left" class="right-photo">
+            <img src="assets/church3.jpeg">
+            <p>We’d occasionally stop for food and passed by a few notable landmarks, but mostly we just walked and talked. I found
+                myself slowly getting to know Ted, collecting these personal facts and stories from his life and sharing some of my
+                own.</p>
+        </div>
+
+        <div data-aos="fade-up-right" class="left-photo">
+            <img src="assets/3-pre-sunset.jpeg">
+            <p>On our last night, we made it our mission to watch the sunset from one of the various lookout points we had found
+            through a quick google search. But we’d been slow in our wandering and we reached the base of the hill just as the sun
+            was about to set.</p>
+        </div>
+
+        <div data-aos="fade-up-left" class="right-photo">
+            <img src="assets/church3.jpeg">
+            <p>We’d occasionally stop for food and passed by a few notable landmarks, but mostly we just walked and talked. I
+                found
+                myself slowly getting to know Ted, collecting these personal facts and stories from his life and sharing some of
+                my
+                own.</p>
+        </div>
+
+        <div class="final-video">
+            <video
+        </div>
+
+        
+        
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+
+            AOS.init({
+                    // Global settings:
+                    disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+                    startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+                    initClassName: 'aos-init', // class applied after initialization
+                    animatedClassName: 'aos-animate', // class applied on animation
+                    useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+                    disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+                    debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+                    throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+                    // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+                    offset: 120, // offset (in px) from the original trigger point
+                    delay: 0, // values from 0 to 3000, with step 50ms
+                    duration: 400, // values from 0 to 3000, with step 50ms
+                    easing: 'ease', // default easing for AOS animations
+                    once: false, // whether animation should happen only once - while scrolling down
+                    mirror: false, // whether elements should animate out while scrolling past them
+                    anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+                });
+        </script>
     </body>
 
 </html>

@@ -2,7 +2,7 @@
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url("assets/IMG_5639.jpeg");
+  url("assets/another\ sunset.jpeg");
 
   height: 800px;
   width: 100%;
@@ -30,4 +30,31 @@
 
 body {
     margin: 0px;
+    background-color:#FFE4E1;
+}
+
+.intro {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+}
+
+img {
+    height: 400px;
+    width: 500px;
+    object-fit: contain;
+}
+
+.left-photo {
+    float: left;
+    margin-right: 70%;
+    margin-left: 100px;
+    padding: 50px;
+}
+
+.right-photo {
+    margin-left: 70%;
+    margin-right: 100px;
+    float: right;
+    padding: 50px;
 }

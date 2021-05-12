@@ -48,9 +48,11 @@ function typeWriter() {
             //console.log("is this hey: ", get_text.textContent)
             setTimeout(typeWriter, 800)
         }
-
-
     }
+    initial_ended = true;
+    particles()
+    get_text.classList.add("add-this")
+    
     // else {
     //     if (i == txt.length) {
     //         //console.log("is this ever True?")
